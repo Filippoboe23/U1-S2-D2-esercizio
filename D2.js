@@ -13,7 +13,7 @@ if (num > num2) {
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
-const num3 = 5;
+const num3 = 4;
 const num4 = 5;
 if (num4 !== num3) {
   console.log("not equal");
@@ -86,11 +86,10 @@ if (i > am && i > ironMan && am > ironMan) {
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
-const whatIs = prompt("scrivi quello che stai pensando");
+const whatIs = 15;
 if (typeof whatIs === Number && typeof whatIs !== String && typeof whatIs !== Boolean) {
   console.log("è un numero");
-} else typeof whatIs !== Number || typeof whatIs === String || typeof whatIs === Boolean;
-{
+} else {
   console.log("non è un numero");
 }
 /* SCRIVI QUI LA TUA RISPOSTA */
